@@ -1,0 +1,16 @@
+### Create a destination for an account
+POST http://localhost:3000/destinations
+Content-Type: application/json
+
+{
+  "accountId": "<REPLACE_WITH_ACCOUNT_ID>",
+  "url": "https://webhook.site/your-endpoint",
+  "httpMethod": "POST",
+  "headers": {
+    "APP_ID": "1234APPID1234",
+    "APP_SECRET": "enwdj3bshwer43bjhjs9ereuinkjcnsiurew8s",
+    "ACTION": "user.update",
+    "Content-Type": "application/json",
+    "Accept": "*"
+  }
+}

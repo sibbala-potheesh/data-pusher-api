@@ -1,0 +1,2 @@
+### Delete account by ID (and cascade delete its destinations)
+DELETE http://localhost:3000/accounts/<REPLACE_WITH_ACCOUNT_ID>

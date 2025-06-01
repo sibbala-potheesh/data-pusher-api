@@ -1,0 +1,2 @@
+### Get all accounts
+GET http://localhost:3000/accounts

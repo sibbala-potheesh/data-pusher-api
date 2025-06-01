@@ -1,0 +1,7 @@
+### Missing CL-X-TOKEN header
+POST http://localhost:3000/server/incoming_data
+Content-Type: application/json
+
+{
+  "event": "test"
+}

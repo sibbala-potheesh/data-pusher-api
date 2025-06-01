@@ -1,0 +1,2 @@
+### Get all destinations for an account
+GET http://localhost:3000/destinations/account/<REPLACE_WITH_ACCOUNT_ID>

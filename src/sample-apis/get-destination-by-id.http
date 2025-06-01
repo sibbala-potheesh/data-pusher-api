@@ -1,0 +1,2 @@
+### Get destination by ID
+GET http://localhost:3000/destinations/<REPLACE_WITH_DESTINATION_ID>

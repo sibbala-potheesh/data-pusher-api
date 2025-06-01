@@ -1,0 +1,2 @@
+### Delete a destination
+DELETE http://localhost:3000/destinations/<REPLACE_WITH_DESTINATION_ID>

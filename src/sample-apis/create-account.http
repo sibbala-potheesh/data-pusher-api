@@ -1,0 +1,9 @@
+### Create a new account
+POST http://localhost:3000/accounts
+Content-Type: application/json
+
+{
+  "email": "user1@example.com",
+  "accountName": "User One",
+  "website": "https://example.com"
+}

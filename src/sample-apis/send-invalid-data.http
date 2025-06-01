@@ -1,0 +1,6 @@
+### Invalid Data (GET method with non-JSON)
+GET http://localhost:3000/server/incoming_data
+CL-X-TOKEN: <REPLACE_WITH_APP_SECRET_TOKEN>
+Content-Type: text/plain
+
+This is not JSON

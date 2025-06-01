@@ -1,0 +1,8 @@
+### Update account details
+PUT http://localhost:3000/accounts/<REPLACE_WITH_ACCOUNT_ID>
+Content-Type: application/json
+
+{
+  "accountName": "Updated User One",
+  "website": "https://updated.com"
+}

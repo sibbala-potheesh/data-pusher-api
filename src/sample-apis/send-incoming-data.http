@@ -1,0 +1,10 @@
+### Send JSON data to /server/incoming_data
+POST http://localhost:3000/server/incoming_data
+Content-Type: application/json
+CL-X-TOKEN: <REPLACE_WITH_APP_SECRET_TOKEN>
+
+{
+  "event": "user.signup",
+  "userId": "u123456",
+  "timestamp": "2025-06-01T12:00:00Z"
+}

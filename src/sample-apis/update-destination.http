@@ -1,0 +1,14 @@
+### Update a destination
+PUT http://localhost:3000/destinations/<REPLACE_WITH_DESTINATION_ID>
+Content-Type: application/json
+
+{
+  "url": "https://webhook.site/updated-endpoint",
+  "httpMethod": "PUT",
+  "headers": {
+    "APP_ID": "updatedID",
+    "APP_SECRET": "newsecret",
+    "ACTION": "user.update",
+    "Content-Type": "application/json"
+  }
+}

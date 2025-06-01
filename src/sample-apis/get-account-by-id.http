@@ -1,0 +1,2 @@
+### Get account by ID
+GET http://localhost:3000/accounts/<REPLACE_WITH_ACCOUNT_ID>
